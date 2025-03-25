@@ -1,11 +1,11 @@
 ServerEvents.recipes(event => {
     console.log("Loaded custom YGO recipes")
 
-    global.Rarities.tier1.map((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 1))
-    global.Rarities.tier2.map((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 2))
-    global.Rarities.tier3.map((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 4))
-    global.Rarities.tier4.map((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 8))
-    global.Rarities.tier5.map((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 16))
+    global.Rarities.tier1.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 1))
+    global.Rarities.tier2.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 2))
+    global.Rarities.tier3.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 4))
+    global.Rarities.tier4.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 8))
+    global.Rarities.tier5.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 16))
 
     const dm = ["LOB", "MRD", "SRL", "PSV", "LON", "LOD", "PGD", "MFC", "DCR", "IOC", "AST", "SOD", "RDS", "FET"]
     const gx = ["TLM", "CRV", "EEN", "SOI", "EOJ", "POTD", "CDIP", "STON", "FOTB", "TAEV", "GLAS", "PTDN", "LODT"]
@@ -18,17 +18,17 @@ ServerEvents.recipes(event => {
     const zexal_y = ["CBLZ", "LTGY", "NUMH"]
     const zexal_z = ["JOTL", "SHSP", "LVAL", "DRLG", "PRIO"]
 
-    dm.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:dm_blank'))
+    dm.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:dm_blank'))
 
-    gx.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:gx_blank'))
+    gx.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:gx_blank'))
 
-    fiveds_s.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_skiel'))
-    fiveds_g.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_granel'))
-    fiveds_w.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_wisel'))
+    fiveds_s.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_skiel'))
+    fiveds_g.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_granel'))
+    fiveds_w.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:5ds_blank_wisel'))
 
-    zexal_x.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_x'))
-    zexal_y.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_y'))
-    zexal_z.map((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_z'))
+    zexal_x.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_x'))
+    zexal_y.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_y'))
+    zexal_z.forEach((p) => event.shapeless(global.Helpers.get_pack(p), 'kubejs:zexal_blank_z'))
 
     event.stonecutting('kubejs:dm_blank', 'kubejs:n_dust_block')
     event.stonecutting('4x kubejs:gx_blank', 'kubejs:r_dust_block')

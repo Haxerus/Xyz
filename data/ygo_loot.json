@@ -1,0 +1,1619 @@
+{
+  "OW_gameplay_fishing": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "MRD",
+        "weight": 1
+      },
+      {
+        "code": "CRV",
+        "weight": 1
+      },
+      {
+        "code": "CDIP",
+        "weight": 1
+      },
+      {
+        "code": "MFC",
+        "weight": 1
+      },
+      {
+        "code": "SRL",
+        "weight": 1
+      },
+      {
+        "code": "EEN",
+        "weight": 1
+      },
+      {
+        "code": "TLM",
+        "weight": 1
+      },
+      {
+        "code": "STON",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:gameplay/fishing/fish",
+      "minecraft:gameplay/fishing/junk",
+      "aquaculture:box/box",
+      "aquaculture:box/lockbox"
+    ]
+  },
+  "OW_gameplay_fishingrare": {
+    "chance": 0.2,
+    "packs": [
+      {
+        "code": "PTDN",
+        "weight": 1
+      },
+      {
+        "code": "LOD",
+        "weight": 1
+      },
+      {
+        "code": "SOI",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:gameplay/fishing/treasure",
+      "aquaculture:box/treasure_chest"
+    ]
+  },
+  "OW_mob_underwater": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "LOB",
+        "weight": 9900
+      },
+      {
+        "code": "SDY",
+        "weight": 25
+      },
+      {
+        "code": "SDJ",
+        "weight": 25
+      },
+      {
+        "code": "SDK",
+        "weight": 25
+      },
+      {
+        "code": "SDP",
+        "weight": 25
+      }
+    ],
+    "tables": [
+      "minecraft:entities/salmon",
+      "minecraft:entities/cod",
+      "aquaculture:entities/atlantic_cod",
+      "aquaculture:entities/atlantic_halibut",
+      "aquaculture:entities/atlantic_herring",
+      "aquaculture:entities/bayad",
+      "aquaculture:entities/blackfish",
+      "aquaculture:entities/bluegill",
+      "aquaculture:entities/boulti",
+      "minecraft:entities/tropical_fish",
+      "minecraft:entities/squid",
+      "minecraft:entities/pufferfish",
+      "aquaculture:entities/arapaima",
+      "aquaculture:entities/arrau_turtle",
+      "aquaculture:entities/box_turtle",
+      "aquaculture:entities/brown_shrooma",
+      "aquaculture:entities/brown_trout",
+      "aquaculture:entities/capitaine",
+      "aquaculture:entities/carp",
+      "aquaculture:entities/catfish",
+      "aquaculture:entities/gar",
+      "aquaculture:entities/jellyfish",
+      "aquaculture:entities/minnow",
+      "aquaculture:entities/muskellunge",
+      "aquaculture:entities/pacific_halibut",
+      "aquaculture:entities/perch",
+      "aquaculture:entities/pink_salmon",
+      "aquaculture:entities/piranha",
+      "aquaculture:entities/pollock",
+      "aquaculture:entities/rainbow_trout",
+      "aquaculture:entities/red_grouper",
+      "aquaculture:entities/red_shrooma",
+      "aquaculture:entities/smallmouth_bass",
+      "aquaculture:entities/starshell_turtle",
+      "aquaculture:entities/synodontis",
+      "aquaculture:entities/tambaqui",
+      "aquaculture:entities/tuna",
+      "minecraft:entities/glow_squid",
+      "minecraft:entities/frog",
+      "ecologics:entities/coconut_crab",
+      "friendsandfoes:entities/crab",
+      "quark:entities/crab",
+      "quark:entities/toretoise",
+      "minecraft:entities/turtle",
+      "minecraft:entities/tadpole"
+    ]
+  },
+  "OW_mob_passive": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "AST",
+        "weight": 1
+      },
+      {
+        "code": "SOD",
+        "weight": 1
+      },
+      {
+        "code": "POTD",
+        "weight": 1
+      },
+      {
+        "code": "FET",
+        "weight": 1
+      },
+      {
+        "code": "RDS",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/cow",
+      "minecraft:entities/pig",
+      "minecraft:entities/chicken",
+      "minecraft:entities/rabbit",
+      "minecraft:entities/sheep",
+      "minecraft:entities/parrot",
+      "minecraft:entities/bat",
+      "minecraft:entities/donkey",
+      "minecraft:entities/mule",
+      "untitledduckmod:entities/duck",
+      "untitledduckmod:entities/goose",
+      "minecraft:entities/fox",
+      "endergetic:entities/puff_bug",
+      "minecraft:entities/bee",
+      "minecraft:entities/goat"
+    ]
+  },
+  "OW_mob_desert": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "PSV",
+        "weight": 1
+      },
+      {
+        "code": "PGD",
+        "weight": 1
+      },
+      {
+        "code": "MOV",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/husk",
+      "yungsextras:desert/chillzone",
+      "yungsextras:desert/ruins",
+      "minecraft:chests/desert_pyramid",
+      "betterdeserttemples:chests/food_storage",
+      "betterdeserttemples:chests/lab",
+      "betterdeserttemples:chests/library",
+      "betterdeserttemples:chests/pharaoh_hidden",
+      "betterdeserttemples:chests/pot",
+      "betterdeserttemples:chests/statue",
+      "betterdeserttemples:chests/storage",
+      "betterdeserttemples:chests/tomb",
+      "betterdeserttemples:chests/tomb_pharaoh",
+      "betterdeserttemples:chests/wardrobe",
+      "chalk:chests/desert_pyramid_chalk_loot",
+      "ecologics:entities/camel"
+    ]
+  },
+  "OW_mob_golem": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "MRD",
+        "weight": 1
+      },
+      {
+        "code": "CRV",
+        "weight": 1
+      },
+      {
+        "code": "CDIP",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/iron_golem",
+      "friendsandfoes:entities/copper_golem",
+      "friendsandfoes:entities/tuff_golem",
+      "railways:entities/conductor",
+      "quark:entities/stoneling"
+    ]
+  },
+  "OW_mob_edge": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "PTDN",
+        "weight": 1
+      },
+      {
+        "code": "LOD",
+        "weight": 1
+      },
+      {
+        "code": "SOI",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/villager",
+      "minecraft:entities/wandering_trader",
+      "minecraft:entities/llama",
+      "minecraft:entities/trader_llama",
+      "minecraft:entities/cat",
+      "minecraft:entities/wolf",
+      "minecraft:entities/stray",
+      "minecraft:entities/panda",
+      "minecraft:entities/ocelot",
+      "minecraft:entities/horse",
+      "minecraft:entities/dolphin",
+      "minecraft:entities/axolotl",
+      "friendsandfoes:entities/rascal"
+    ]
+  },
+  "OW_mob_magic": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "MFC",
+        "weight": 1
+      },
+      {
+        "code": "SRL",
+        "weight": 1
+      },
+      {
+        "code": "STON",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/witch",
+      "minecraft:entities/vex",
+      "minecraft:entities/allay"
+    ]
+  },
+  "OW_mob_hostile": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "EOJ",
+        "weight": 1
+      },
+      {
+        "code": "IOC",
+        "weight": 1
+      },
+      {
+        "code": "LON",
+        "weight": 1
+      },
+      {
+        "code": "DCR",
+        "weight": 1
+      },
+      {
+        "code": "FOTB",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/zombie",
+      "minecraft:entities/zombie_villager",
+      "minecraft:entities/spider",
+      "minecraft:entities/skeleton",
+      "minecraft:entities/creeper",
+      "neapolitan:entities/plantain_spider"
+    ]
+  },
+  "OW_mob_raidcommon": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "GLAS",
+        "weight": 1
+      },
+      {
+        "code": "LODT",
+        "weight": 1
+      },
+      {
+        "code": "TAEV",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/vindicator",
+      "minecraft:entities/pillager",
+      "friendsandfoes:entities/iceologer",
+      "minecraft:entities/illusioner"
+    ]
+  },
+  "OW_mob_aqua": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "EEN",
+        "weight": 1
+      },
+      {
+        "code": "TLM",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/drowned",
+      "minecraft:entities/guardian",
+      "minecraft:entities/snow_golem",
+      "minecraft:entities/polar_bear"
+    ]
+  },
+  "OW_mob_passiverare": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "DB1",
+        "weight": 1
+      },
+      {
+        "code": "DB2",
+        "weight": 1
+      },
+      {
+        "code": "DR1",
+        "weight": 1
+      },
+      {
+        "code": "DR2",
+        "weight": 1
+      },
+      {
+        "code": "DR3",
+        "weight": 1
+      },
+      {
+        "code": "DR04",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/mooshroom",
+      "minecraft:entities/slime",
+      "friendsandfoes:entities/moobloom",
+      "quark:entities/forgotten"
+    ]
+  },
+  "Nether_gameplay_lavafishing": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "TSHD",
+        "weight": 1
+      },
+      {
+        "code": "ANPR",
+        "weight": 1
+      },
+      {
+        "code": "STOR",
+        "weight": 1
+      },
+      {
+        "code": "ABPF",
+        "weight": 1
+      },
+      {
+        "code": "TDGS",
+        "weight": 1
+      },
+      {
+        "code": "RGBT",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "netherdepthsupgrade:gameplay/lava_fishing",
+      "netherdepthsupgrade:gameplay/nether_fishing"
+    ]
+  },
+  "OW_mob_cavespider": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "CSOC",
+        "weight": 1
+      },
+      {
+        "code": "TDGS",
+        "weight": 1
+      },
+      {
+        "code": "SOVR",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/cave_spider"
+    ]
+  },
+  "Nether_mob_fire": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "CRMS",
+        "weight": 1
+      },
+      {
+        "code": "EXVC",
+        "weight": 1
+      },
+      {
+        "code": "STBL",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/blaze",
+      "minecraft:entities/ghast",
+      "minecraft:entities/strider",
+      "quark:entities/foxhound",
+      "quark:entities/wraith"
+    ]
+  },
+  "Nether_mob_magmacube": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "TSHD",
+        "weight": 1
+      },
+      {
+        "code": "ANPR",
+        "weight": 1
+      },
+      {
+        "code": "STOR",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/magma_cube",
+      "minecraft:entities/wither_skeleton"
+    ]
+  },
+  "Nether_mob_piglin": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "ABPF",
+        "weight": 1
+      },
+      {
+        "code": "TDGS",
+        "weight": 1
+      },
+      {
+        "code": "RGBT",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/piglin",
+      "minecraft:entities/piglin_brute",
+      "minecraft:entities/zombified_piglin",
+      "minecraft:entities/hoglin"
+    ]
+  },
+  "Nether_gameplay_bartering": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "HA03",
+        "weight": 12
+      },
+      {
+        "code": "HA04",
+        "weight": 12
+      },
+      {
+        "code": "BPW2",
+        "weight": 12
+      },
+      {
+        "code": "BP02",
+        "weight": 12
+      },
+      {
+        "code": "BP03",
+        "weight": 12
+      },
+      {
+        "code": "BP01",
+        "weight": 12
+      },
+      {
+        "code": "5DS1",
+        "weight": 1
+      },
+      {
+        "code": "5DS2",
+        "weight": 1
+      },
+      {
+        "code": "5DS3",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:gameplay/piglin_bartering",
+      "mynethersdelight:gameplay/mnd_piglin_bartering",
+      "friendsandfoes:rewards/rascal_good_reward"
+    ]
+  },
+  "Nether_chests_fortress": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "TSHD",
+        "weight": 1
+      },
+      {
+        "code": "ANPR",
+        "weight": 1
+      },
+      {
+        "code": "STOR",
+        "weight": 1
+      },
+      {
+        "code": "ABPF",
+        "weight": 1
+      },
+      {
+        "code": "TDGS",
+        "weight": 1
+      },
+      {
+        "code": "RGBT",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "betterfortresses:chests/beacon",
+      "betterfortresses:chests/extra",
+      "betterfortresses:chests/hall",
+      "betterfortresses:chests/keep",
+      "betterfortresses:chests/obsidian",
+      "betterfortresses:chests/puzzle",
+      "betterfortresses:chests/quarters",
+      "betterfortresses:chests/storage",
+      "minecraft:chests/nether_bridge",
+      "friendsandfoes:barrels/citadel",
+      "tetra:chests/nether_bridge_extended",
+      "betterfortresses:chests/worship"
+    ]
+  },
+  "Nether_chests_bastion": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "CRMS",
+        "weight": 51
+      },
+      {
+        "code": "EXVC",
+        "weight": 51
+      },
+      {
+        "code": "STBL",
+        "weight": 51
+      },
+      {
+        "code": "CSOC",
+        "weight": 51
+      },
+      {
+        "code": "TDGS",
+        "weight": 51
+      },
+      {
+        "code": "SOVR",
+        "weight": 51
+      },
+      {
+        "code": "5DS1",
+        "weight": 18
+      },
+      {
+        "code": "5DS2",
+        "weight": 18
+      },
+      {
+        "code": "5DS3",
+        "weight": 18
+      }
+    ],
+    "tables": [
+      "farmersdelight:chests/fd_bastion_hoglin_stable",
+      "farmersdelight:chests/fd_bastion_treasure",
+      "minecraft:chests/bastion_bridge",
+      "minecraft:chests/bastion_hoglin_stable",
+      "minecraft:chests/bastion_other",
+      "minecraft:chests/bastion_treasure",
+      "mynethersdelight:chests/mnd_bastion_hoglin_stable",
+      "mynethersdelight:chests/mnd_bastion_treasure"
+    ]
+  },
+  "OW_chests_ruinportal": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "PTDN",
+        "weight": 1
+      },
+      {
+        "code": "LOD",
+        "weight": 1
+      },
+      {
+        "code": "SOI",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "farmersdelight:chests/fd_ruined_portal",
+      "minecraft:chests/ruined_portal"
+    ]
+  },
+  "OW_chests_stronghold": {
+    "chance": 0.05,
+    "packs": [
+      {
+        "code": "HA01",
+        "weight": 1
+      },
+      {
+        "code": "HA02",
+        "weight": 1
+      },
+      {
+        "code": "HA03",
+        "weight": 1
+      },
+      {
+        "code": "HA04",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:chests/stronghold_corridor",
+      "minecraft:chests/stronghold_crossing",
+      "minecraft:chests/stronghold_library",
+      "betterstrongholds:chests/armoury",
+      "betterstrongholds:chests/cmd_yung",
+      "betterstrongholds:chests/common",
+      "betterstrongholds:chests/crypt",
+      "betterstrongholds:chests/grand_library",
+      "betterstrongholds:chests/library_md",
+      "betterstrongholds:chests/mess",
+      "betterstrongholds:chests/prison_lg",
+      "betterstrongholds:chests/trap",
+      "betterstrongholds:chests/treasure"
+    ]
+  },
+  "END_chests_endcity": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "ORCS",
+        "weight": 1
+      },
+      {
+        "code": "GAOV",
+        "weight": 1
+      },
+      {
+        "code": "REDU",
+        "weight": 1
+      },
+      {
+        "code": "ABYR",
+        "weight": 1
+      },
+      {
+        "code": "CBLZ",
+        "weight": 1
+      },
+      {
+        "code": "LTGY",
+        "weight": 1
+      },
+      {
+        "code": "HA05",
+        "weight": 1
+      },
+      {
+        "code": "HA06",
+        "weight": 1
+      },
+      {
+        "code": "HA07",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "farmersdelight:chests/fd_end_city_treasure",
+      "minecraft:chests/end_city_treasure"
+    ]
+  },
+  "OW_mob_silverfish": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "GENF",
+        "weight": 1
+      },
+      {
+        "code": "DREV",
+        "weight": 1
+      },
+      {
+        "code": "PHSW",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/silverfish"
+    ]
+  },
+  "END_mob_ender": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "PHSW",
+        "weight": 1
+      },
+      {
+        "code": "HA01",
+        "weight": 1
+      },
+      {
+        "code": "ORCS",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/enderman",
+      "minecraft:entities/endermite"
+    ]
+  },
+  "END_mob_other": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "NUMH",
+        "weight": 1
+      },
+      {
+        "code": "JOTL",
+        "weight": 1
+      },
+      {
+        "code": "SHSP",
+        "weight": 1
+      },
+      {
+        "code": "LVAL",
+        "weight": 1
+      },
+      {
+        "code": "DRLG",
+        "weight": 1
+      },
+      {
+        "code": "PRIO",
+        "weight": 1
+      },
+      {
+        "code": "HA02",
+        "weight": 1
+      },
+      {
+        "code": "HA03",
+        "weight": 1
+      },
+      {
+        "code": "HA04",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "endergetic:entities/booflo",
+      "endergetic:entities/booflo_adolescent",
+      "endergetic:entities/booflo_baby",
+      "endergetic:entities/purpoid",
+      "endergetic:entities/purpoid/purp",
+      "endergetic:entities/purpoid/purpazoid",
+      "minecraft:entities/shulker"
+    ]
+  },
+  "OW_chests_mineshaft": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "EEN",
+        "weight": 1
+      },
+      {
+        "code": "TLM",
+        "weight": 1
+      },
+      {
+        "code": "MRD",
+        "weight": 1
+      },
+      {
+        "code": "CRV",
+        "weight": 1
+      },
+      {
+        "code": "CDIP",
+        "weight": 1
+      },
+      {
+        "code": "SD1",
+        "weight": 1
+      },
+      {
+        "code": "SD2",
+        "weight": 1
+      },
+      {
+        "code": "SD3",
+        "weight": 1
+      },
+      {
+        "code": "SD4",
+        "weight": 1
+      },
+      {
+        "code": "SD5",
+        "weight": 1
+      },
+      {
+        "code": "SD6",
+        "weight": 1
+      },
+      {
+        "code": "SD7",
+        "weight": 1
+      },
+      {
+        "code": "SD8",
+        "weight": 1
+      },
+      {
+        "code": "SD09",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:chests/abandoned_mineshaft",
+      "farmersdelight:chests/fd_abandoned_mineshaft"
+    ]
+  },
+  "OW_chests_starter100": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "SDY",
+        "weight": 1
+      },
+      {
+        "code": "SDK",
+        "weight": 1
+      },
+      {
+        "code": "SDJ",
+        "weight": 1
+      },
+      {
+        "code": "SDP",
+        "weight": 1
+      },
+      {
+        "code": "SKE",
+        "weight": 1
+      },
+      {
+        "code": "SYE",
+        "weight": 1
+      },
+      {
+        "code": "YSD",
+        "weight": 1
+      },
+      {
+        "code": "YSDJ",
+        "weight": 1
+      },
+      {
+        "code": "YSDS",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "farmersdelight:chests/fd_pillager_outpost",
+      "minecraft:chests/pillager_outpost",
+      "minecraft:chests/igloo_chest",
+      "minecraft:chests/buried_treasure",
+      "minecraft:chests/shipwreck_map",
+      "minecraft:chests/shipwreck_supply",
+      "minecraft:chests/shipwreck_treasure",
+      "farmersdelight:chests/fd_shipwreck_supply"
+    ]
+  },
+  "OW_chests_starter50": {
+    "chance": 0.5,
+    "packs": [
+      {
+        "code": "SDY",
+        "weight": 1
+      },
+      {
+        "code": "SDK",
+        "weight": 1
+      },
+      {
+        "code": "SDJ",
+        "weight": 1
+      },
+      {
+        "code": "SDP",
+        "weight": 1
+      },
+      {
+        "code": "SKE",
+        "weight": 1
+      },
+      {
+        "code": "SYE",
+        "weight": 1
+      },
+      {
+        "code": "YSD",
+        "weight": 1
+      },
+      {
+        "code": "YSDJ",
+        "weight": 1
+      },
+      {
+        "code": "YSDS",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:chests/underwater_ruin_big",
+      "minecraft:chests/underwater_ruin_small"
+    ]
+  },
+  "OW_chests_starter10": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "SDY",
+        "weight": 1
+      },
+      {
+        "code": "SDK",
+        "weight": 1
+      },
+      {
+        "code": "SDJ",
+        "weight": 1
+      },
+      {
+        "code": "SDP",
+        "weight": 1
+      },
+      {
+        "code": "SKE",
+        "weight": 1
+      },
+      {
+        "code": "SYE",
+        "weight": 1
+      },
+      {
+        "code": "YSD",
+        "weight": 1
+      },
+      {
+        "code": "YSDJ",
+        "weight": 1
+      },
+      {
+        "code": "YSDS",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "chalk:chests/village_chalk_loot",
+      "farmersdelight:chests/fd_village_butcher",
+      "farmersdelight:chests/fd_village_desert_house",
+      "farmersdelight:chests/fd_village_plains_house",
+      "farmersdelight:chests/fd_village_savanna_house",
+      "farmersdelight:chests/fd_village_snowy_house",
+      "farmersdelight:chests/fd_village_taiga_house",
+      "minecraft:chests/village/village_armorer",
+      "minecraft:chests/village/village_butcher",
+      "minecraft:chests/village/village_cartographer",
+      "minecraft:chests/village/village_desert_house",
+      "minecraft:chests/village/village_fisher",
+      "minecraft:chests/village/village_fletcher",
+      "minecraft:chests/village/village_mason",
+      "minecraft:chests/village/village_plains_house",
+      "minecraft:chests/village/village_savanna_house",
+      "minecraft:chests/village/village_shepherd",
+      "minecraft:chests/village/village_snowy_house",
+      "minecraft:chests/village/village_taiga_house",
+      "minecraft:chests/village/village_tannery",
+      "minecraft:chests/village/village_temple",
+      "minecraft:chests/village/village_toolsmith",
+      "minecraft:chests/village/village_weaponsmith"
+    ]
+  },
+  "OW_chests_dungeon100": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "TP4",
+        "weight": 1
+      },
+      {
+        "code": "TP5",
+        "weight": 1
+      },
+      {
+        "code": "TP6",
+        "weight": 1
+      },
+      {
+        "code": "TP7",
+        "weight": 1
+      },
+      {
+        "code": "TP8",
+        "weight": 1
+      },
+      {
+        "code": "DP1",
+        "weight": 1
+      },
+      {
+        "code": "DP2",
+        "weight": 1
+      },
+      {
+        "code": "DP03",
+        "weight": 1
+      },
+      {
+        "code": "DP04",
+        "weight": 1
+      },
+      {
+        "code": "DP05",
+        "weight": 1
+      },
+      {
+        "code": "DP06",
+        "weight": 1
+      },
+      {
+        "code": "DP07",
+        "weight": 1
+      },
+      {
+        "code": "DPYG",
+        "weight": 1
+      },
+      {
+        "code": "DPKB",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "betterjungletemples:chests/campsite",
+      "betterjungletemples:chests/treasure",
+      "minecraft:chests/jungle_temple",
+      "betterdungeons:spider_dungeon/chests/egg_room"
+    ]
+  },
+  "OW_chests_structuredeck100": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "SD1",
+        "weight": 1
+      },
+      {
+        "code": "SD2",
+        "weight": 1
+      },
+      {
+        "code": "SD3",
+        "weight": 1
+      },
+      {
+        "code": "SD4",
+        "weight": 1
+      },
+      {
+        "code": "SD5",
+        "weight": 1
+      },
+      {
+        "code": "SD6",
+        "weight": 1
+      },
+      {
+        "code": "SD7",
+        "weight": 1
+      },
+      {
+        "code": "SD8",
+        "weight": 1
+      },
+      {
+        "code": "SD09",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "betteroceanmonuments:chests/upper_side_chamber",
+      "minecraft:chests/woodland_mansion"
+    ]
+  },
+  "OW_chests_dungeon20": {
+    "chance": 0.2,
+    "packs": [
+      {
+        "code": "EEN",
+        "weight": 1
+      },
+      {
+        "code": "TLM",
+        "weight": 1
+      },
+      {
+        "code": "MRD",
+        "weight": 1
+      },
+      {
+        "code": "CRV",
+        "weight": 1
+      },
+      {
+        "code": "CDIP",
+        "weight": 1
+      },
+      {
+        "code": "SD1",
+        "weight": 1
+      },
+      {
+        "code": "SD2",
+        "weight": 1
+      },
+      {
+        "code": "SD3",
+        "weight": 1
+      },
+      {
+        "code": "SD4",
+        "weight": 1
+      },
+      {
+        "code": "SD5",
+        "weight": 1
+      },
+      {
+        "code": "SD6",
+        "weight": 1
+      },
+      {
+        "code": "SD7",
+        "weight": 1
+      },
+      {
+        "code": "SD8",
+        "weight": 1
+      },
+      {
+        "code": "SD09",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "betterdungeons:small_dungeon/chests/loot_piles",
+      "farmersdelight:chests/fd_simple_dungeon",
+      "minecraft:chests/simple_dungeon",
+      "tetra:chests/simple_dungeon_extended"
+    ]
+  },
+  "OW_chests_dungeon10": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "EEN",
+        "weight": 1
+      },
+      {
+        "code": "TLM",
+        "weight": 1
+      },
+      {
+        "code": "MRD",
+        "weight": 1
+      },
+      {
+        "code": "CRV",
+        "weight": 1
+      },
+      {
+        "code": "CDIP",
+        "weight": 1
+      },
+      {
+        "code": "SD1",
+        "weight": 1
+      },
+      {
+        "code": "SD2",
+        "weight": 1
+      },
+      {
+        "code": "SD3",
+        "weight": 1
+      },
+      {
+        "code": "SD4",
+        "weight": 1
+      },
+      {
+        "code": "SD5",
+        "weight": 1
+      },
+      {
+        "code": "SD6",
+        "weight": 1
+      },
+      {
+        "code": "SD7",
+        "weight": 1
+      },
+      {
+        "code": "SD8",
+        "weight": 1
+      },
+      {
+        "code": "SD09",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "betterdungeons:skeleton_dungeon/chests/common",
+      "betterdungeons:skeleton_dungeon/chests/middle",
+      "betterdungeons:zombie_dungeon/chests/common",
+      "betterdungeons:zombie_dungeon/chests/special",
+      "betterdungeons:zombie_dungeon/chests/tombstone",
+      "chalk:chests/dungeon_chalk_loot"
+    ]
+  },
+  "OW_chest_ancientcity": {
+    "chance": 0.5,
+    "packs": [
+      {
+        "code": "SD10",
+        "weight": 1
+      },
+      {
+        "code": "SDRL",
+        "weight": 1
+      },
+      {
+        "code": "SDDE",
+        "weight": 1
+      },
+      {
+        "code": "SDZW",
+        "weight": 1
+      },
+      {
+        "code": "SDSC",
+        "weight": 1
+      },
+      {
+        "code": "SDWS",
+        "weight": 1
+      },
+      {
+        "code": "SDMM",
+        "weight": 1
+      },
+      {
+        "code": "SDMA",
+        "weight": 1
+      },
+      {
+        "code": "SDDL",
+        "weight": 1
+      },
+      {
+        "code": "SDLS",
+        "weight": 1
+      },
+      {
+        "code": "SDGU",
+        "weight": 1
+      },
+      {
+        "code": "SDDC",
+        "weight": 1
+      },
+      {
+        "code": "SDWA",
+        "weight": 1
+      },
+      {
+        "code": "SDRE",
+        "weight": 1
+      },
+      {
+        "code": "SDOK",
+        "weight": 1
+      },
+      {
+        "code": "SDBE",
+        "weight": 1
+      },
+      {
+        "code": "SDCR",
+        "weight": 1
+      },
+      {
+        "code": "SDLI",
+        "weight": 1
+      },
+      {
+        "code": "SDGR",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:chests/ancient_city",
+      "minecraft:chests/ancient_city_ice_box"
+    ]
+  },
+  "OW_chest_magic": {
+    "chance": 0.3,
+    "packs": [
+      {
+        "code": "MFC",
+        "weight": 1
+      },
+      {
+        "code": "SRL",
+        "weight": 1
+      },
+      {
+        "code": "STON",
+        "weight": 1
+      },
+      {
+        "code": "AST",
+        "weight": 1
+      },
+      {
+        "code": "POTD",
+        "weight": 1
+      },
+      {
+        "code": "SOD",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "friendsandfoes:barrels/iceologer_cabin",
+      "friendsandfoes:barrels/illusioner_shack_attic",
+      "friendsandfoes:barrels/illusioner_shack_basement",
+      "friendsandfoes:chests/iceologer_cabin",
+      "friendsandfoes:chests/illusioner_shack",
+      "betterwitchhuts:chests/hut_0"
+    ]
+  },
+  "mob_boss": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "SD10",
+        "weight": 1
+      },
+      {
+        "code": "SDRL",
+        "weight": 1
+      },
+      {
+        "code": "SDDE",
+        "weight": 1
+      },
+      {
+        "code": "SDZW",
+        "weight": 1
+      },
+      {
+        "code": "SDSC",
+        "weight": 1
+      },
+      {
+        "code": "SDWS",
+        "weight": 1
+      },
+      {
+        "code": "SDMM",
+        "weight": 1
+      },
+      {
+        "code": "SDMA",
+        "weight": 1
+      },
+      {
+        "code": "SDDL",
+        "weight": 1
+      },
+      {
+        "code": "SDLS",
+        "weight": 1
+      },
+      {
+        "code": "SDGU",
+        "weight": 1
+      },
+      {
+        "code": "SDDC",
+        "weight": 1
+      },
+      {
+        "code": "SDWA",
+        "weight": 1
+      },
+      {
+        "code": "SDRE",
+        "weight": 1
+      },
+      {
+        "code": "SDOK",
+        "weight": 1
+      },
+      {
+        "code": "SDBE",
+        "weight": 1
+      },
+      {
+        "code": "SDCR",
+        "weight": 1
+      },
+      {
+        "code": "SDLI",
+        "weight": 1
+      },
+      {
+        "code": "SDGR",
+        "weight": 1
+      },
+      {
+        "code": "5DS1",
+        "weight": 1
+      },
+      {
+        "code": "5DS2",
+        "weight": 1
+      },
+      {
+        "code": "5DS3",
+        "weight": 1
+      },
+      {
+        "code": "YS11",
+        "weight": 1
+      },
+      {
+        "code": "YS12",
+        "weight": 1
+      },
+      {
+        "code": "YSYR",
+        "weight": 1
+      },
+      {
+        "code": "YSKR",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "endergetic:entities/brood_eetle",
+      "friendsandfoes:entities/wildfire",
+      "minecraft:entities/elder_guardian",
+      "minecraft:entities/ender_dragon",
+      "minecraft:entities/warden",
+      "minecraft:entities/wither"
+    ]
+  },
+  "mob_rare": {
+    "chance": 0.1,
+    "packs": [
+      {
+        "code": "AP01",
+        "weight": 1
+      },
+      {
+        "code": "AP02",
+        "weight": 1
+      },
+      {
+        "code": "AP03",
+        "weight": 1
+      },
+      {
+        "code": "AP04",
+        "weight": 1
+      },
+      {
+        "code": "AP05",
+        "weight": 1
+      },
+      {
+        "code": "AP06",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "minecraft:entities/evoker",
+      "minecraft:entities/phantom",
+      "minecraft:entities/ravager",
+      "minecraft:entities/skeleton_horse",
+      "minecraft:entities/zoglin"
+    ]
+  },
+  "OW_chests_neptune": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "SD4",
+        "weight": 1
+      }
+    ],
+    "tables": [
+      "aquaculture:box/neptunes_bounty"
+    ]
+  }
+}

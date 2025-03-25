@@ -1,5 +1,6 @@
 {
   "OW_gameplay_fishing": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "MRD",
@@ -37,10 +38,13 @@
     "tables": [
       "minecraft:gameplay/fishing",
       "minecraft:gameplay/fishing/fish",
-      "minecraft:gameplay/fishing/junk"
+      "minecraft:gameplay/fishing/junk",
+      "aquaculture:box/box",
+      "aquaculture:box/lockbox"
     ]
   },
   "OW_gameplay_fishingrare": {
+    "chance": 0.2,
     "packs": [
       {
         "code": "PTDN",
@@ -56,10 +60,12 @@
       }
     ],
     "tables": [
-      "minecraft:gameplay/fishing/treasure"
+      "minecraft:gameplay/fishing/treasure",
+      "aquaculture:box/treasure_chest"
     ]
   },
   "OW_mob_underwater": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "LOB",
@@ -131,6 +137,7 @@
     ]
   },
   "OW_mob_passive": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "AST",
@@ -172,6 +179,7 @@
     ]
   },
   "OW_mob_desert": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "PSV",
@@ -206,6 +214,7 @@
     ]
   },
   "OW_mob_golem": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "MRD",
@@ -229,6 +238,7 @@
     ]
   },
   "OW_mob_edge": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "PTDN",
@@ -260,6 +270,7 @@
     ]
   },
   "OW_mob_magic": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "MFC",
@@ -281,6 +292,7 @@
     ]
   },
   "OW_mob_hostile": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "EOJ",
@@ -313,6 +325,7 @@
     ]
   },
   "OW_mob_raidcommon": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "GLAS",
@@ -334,7 +347,8 @@
       "minecraft:entities/illusioner"
     ]
   },
-  "OW_mob_sea": {
+  "OW_mob_aqua": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "EEN",
@@ -344,9 +358,16 @@
         "code": "TLM",
         "weight": 1
       }
+    ],
+    "tables": [
+      "minecraft:entities/drowned",
+      "minecraft:entities/guardian",
+      "minecraft:entities/snow_golem",
+      "minecraft:entities/polar_bear"
     ]
   },
   "OW_mob_passiverare": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "DB1",
@@ -381,6 +402,7 @@
     ]
   },
   "Nether_gameplay_lavafishing": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "TSHD",
@@ -408,13 +430,18 @@
       }
     ],
     "tables": [
-      "aquaculture:gameplay/fishing/lava/fish",
-      "aquaculture:gameplay/fishing/lava/fishing",
-      "aquaculture:gameplay/fishing/lava/junk",
-      "aquaculture:gameplay/fishing/lava/treasure"
+      "netherdepthsupgrade:gameplay/lava_fishing",
+      "netherdepthsupgrade:gameplay/lava_fishing/junk",
+      "netherdepthsupgrade:gameplay/lava_fishing/fish",
+      "netherdepthsupgrade:gameplay/lava_fishing/treasure",
+      "netherdepthsupgrade:gameplay/nether_fishing",
+      "netherdepthsupgrade:gameplay/nether_fishing/junk",
+      "netherdepthsupgrade:gameplay/nether_fishing/fish",
+      "netherdepthsupgrade:gameplay/nether_fishing/treasure"
     ]
   },
   "OW_mob_cavespider": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "CSOC",
@@ -434,6 +461,7 @@
     ]
   },
   "Nether_mob_fire": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "CRMS",
@@ -457,6 +485,7 @@
     ]
   },
   "Nether_mob_magmacube": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "TSHD",
@@ -472,10 +501,12 @@
       }
     ],
     "tables": [
-      "minecraft:entities/magma_cube"
+      "minecraft:entities/magma_cube",
+      "minecraft:entities/wither_skeleton"
     ]
   },
   "Nether_mob_piglin": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "ABPF",
@@ -498,6 +529,7 @@
     ]
   },
   "Nether_gameplay_bartering": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "HA03",
@@ -531,6 +563,7 @@
     ]
   },
   "Nether_chests_fortress": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "TSHD",
@@ -573,6 +606,7 @@
     ]
   },
   "Nether_chests_bastion": {
+    "chance": 1,
     "packs": [
       {
         "code": "CRMS",
@@ -611,6 +645,7 @@
     ]
   },
   "OW_chests_ruinportal": {
+    "chance": 1,
     "packs": [
       {
         "code": "PTDN",
@@ -631,6 +666,7 @@
     ]
   },
   "OW_chests_stronghold": {
+    "chance": 0.05,
     "packs": [
       {
         "code": "HA01",
@@ -666,6 +702,7 @@
     ]
   },
   "END_chests_endcity": {
+    "chance": 1,
     "packs": [
       {
         "code": "ORCS",
@@ -710,6 +747,7 @@
     ]
   },
   "OW_mob_silverfish": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "GENF",
@@ -729,6 +767,7 @@
     ]
   },
   "END_mob_ender": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "PHSW",
@@ -749,6 +788,7 @@
     ]
   },
   "END_mob_other": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "NUMH",
@@ -798,6 +838,7 @@
     ]
   },
   "OW_chests_mineshaft": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "EEN",
@@ -862,6 +903,7 @@
     ]
   },
   "OW_chests_starter100": {
+    "chance": 1,
     "packs": [
       {
         "code": "SDY",
@@ -912,6 +954,7 @@
     ]
   },
   "OW_chests_starter50": {
+    "chance": 0.5,
     "packs": [
       {
         "code": "SDY",
@@ -956,6 +999,7 @@
     ]
   },
   "OW_chests_starter10": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "SDY",
@@ -1021,6 +1065,7 @@
     ]
   },
   "OW_chests_dungeon100": {
+    "chance": 1,
     "packs": [
       {
         "code": "TP4",
@@ -1087,6 +1132,7 @@
     ]
   },
   "OW_chests_structuredeck100": {
+    "chance": 1,
     "packs": [
       {
         "code": "SD1",
@@ -1131,6 +1177,7 @@
     ]
   },
   "OW_chests_dungeon20": {
+    "chance": 0.2,
     "packs": [
       {
         "code": "EEN",
@@ -1197,6 +1244,7 @@
     ]
   },
   "OW_chests_dungeon10": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "EEN",
@@ -1265,6 +1313,7 @@
     ]
   },
   "OW_chest_ancientcity": {
+    "chance": 0.5,
     "packs": [
       {
         "code": "SD10",
@@ -1349,6 +1398,7 @@
     ]
   },
   "OW_chest_magic": {
+    "chance": 0.3,
     "packs": [
       {
         "code": "MFC",
@@ -1385,6 +1435,7 @@
     ]
   },
   "mob_boss": {
+    "chance": 1,
     "packs": [
       {
         "code": "SD10",
@@ -1465,18 +1516,15 @@
     ],
     "tables": [
       "endergetic:entities/brood_eetle",
-      "endergetic:entities/charger_eetle",
-      "endergetic:entities/glider_eetle",
-      "endergetic:entities/poise_cluster",
       "friendsandfoes:entities/wildfire",
       "minecraft:entities/elder_guardian",
       "minecraft:entities/ender_dragon",
-      "tetra:entities/ender_dragon_extended",
       "minecraft:entities/warden",
       "minecraft:entities/wither"
     ]
   },
   "mob_rare": {
+    "chance": 0.1,
     "packs": [
       {
         "code": "AP01",
@@ -1508,11 +1556,11 @@
       "minecraft:entities/phantom",
       "minecraft:entities/ravager",
       "minecraft:entities/skeleton_horse",
-      "minecraft:entities/zoglin",
-      "minecraft:entities/wither_skeleton"
+      "minecraft:entities/zoglin"
     ]
   },
   "OW_chests_neptune": {
+    "chance": 1,
     "packs": [
       {
         "code": "SD4",

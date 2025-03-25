@@ -63,7 +63,7 @@ StartupEvents.registry('fluid', e => {
       //.noBlock()
     
     e.create('ener_d')
-      .thinTexture(0xD8FDFF)
-      .bucketColor(0xD8FDFF)
+      .thinTexture(0xFFCCF7)
+      .bucketColor(0xFFCCF7)
       .displayName('Ener-D')
   })
