@@ -1632,6 +1632,9 @@
         "code": "PGLD",
         "weight": 1
       }
+    ],
+    "tables": [
+      "minecraft:entities/warden"
     ]
   },
   "OW_chests_neptune": {
