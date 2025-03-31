@@ -1606,7 +1606,7 @@
     ]
   },
   "warden": {
-    "chance": 1,
+    "chance": 0.1,
     "packs": [
       {
         "code": "GLD1",
