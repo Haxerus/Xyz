@@ -518,7 +518,8 @@
       "minecraft:entities/piglin",
       "minecraft:entities/piglin_brute",
       "minecraft:entities/zombified_piglin",
-      "minecraft:entities/hoglin"
+      "minecraft:entities/hoglin",
+      "minecraft:entities/zoglin"
     ]
   },
   "Nether_gameplay_bartering": {
@@ -1564,7 +1565,6 @@
       "friendsandfoes:entities/wildfire",
       "minecraft:entities/elder_guardian",
       "minecraft:entities/ender_dragon",
-      "minecraft:entities/warden",
       "minecraft:entities/wither"
     ]
   },
@@ -1602,6 +1602,35 @@
       "minecraft:entities/ravager",
       "minecraft:entities/skeleton_horse",
       "minecraft:entities/zoglin"
+    ]
+  },
+  "warden": {
+    "chance": 1,
+    "packs": [
+      {
+        "code": "GLD1",
+        "weight": 20
+      },
+      {
+        "code": "GLD2",
+        "weight": 20
+      },
+      {
+        "code": "GLD3",
+        "weight": 1
+      },
+      {
+        "code": "GLD4",
+        "weight": 20
+      },
+      {
+        "code": "GLD5",
+        "weight": 1
+      },
+      {
+        "code": "PGLD",
+        "weight": 1
+      }
     ]
   },
   "OW_chests_neptune": {

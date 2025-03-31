@@ -1,31 +1,37 @@
 LootJS.modifiers((event) => {
     console.log("Custom YGO Loot Modification")
 
+    // Special Banned Card Loot
     const MAXX_C = 23434538
+    const JARS = [33508719, 34124316, 78706415]
+
+    let exceptions = [23434538, 33508719, 34124316, 78706415]
 
     const MAXX_C_RATE = 1 / 25000
     const ELYTRA_RATE = 1 / 100
+    const RARE_DROP_RATE = 1 / 2000
+    const SEMI_RARE_DROP_RATE = 1 / 10000
+    const BOSS_DROP_RATE = 1 / 200
+    const JAR_DROP_RATE = 1 / 5000
 
     const RARE_MOBS = [
         "minecraft:entities/evoker",
-        "minecraft:entities/phantom",
         "minecraft:entities/ravager",
         "minecraft:entities/skeleton_horse",
-        "minecraft:entities/zoglin"
     ]
 
-    const RARE_DROP_RATE = 1 / 2000
+    const SEMI_RARE_MOBS = [
+        "minecraft:entities/phantom",
+        "minecraft:entities/zoglin"
+    ]
 
     const BOSSES = [
         "endergetic:entities/brood_eetle",
         "friendsandfoes:entities/wildfire",
         "minecraft:entities/elder_guardian",
         "minecraft:entities/ender_dragon",
-        "minecraft:entities/warden",
         "minecraft:entities/wither"
     ]
-
-    const BOSS_DROP_RATE = 1 / 200
 
     let get_pack_loot = (pack_code) => {
         return LootEntry.of("ydm:set", { code: pack_code })
@@ -55,7 +61,16 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(RARE_MOBS)
         .randomChance(RARE_DROP_RATE)
         .addWeightedLoot(banned_ids.map((id) => {
-            if (id !== MAXX_C) {
+            if (!exceptions.includes(id)) {
+                return banned_card_loot(id).withChance(1)
+            }
+        }))
+    
+    event
+        .addLootTableModifier(SEMI_RARE_MOBS)
+        .randomChance(SEMI_RARE_DROP_RATE)
+        .addWeightedLoot(banned_ids.map((id) => {
+            if (!exceptions.includes(id)) {
                 return banned_card_loot(id).withChance(1)
             }
         }))
@@ -64,7 +79,7 @@ LootJS.modifiers((event) => {
         .addLootTableModifier(BOSSES)
         .randomChance(BOSS_DROP_RATE)
         .addWeightedLoot(banned_ids.map((id) => {
-            if (id !== MAXX_C) {
+            if (!exceptions.includes(id)) {
                 return banned_card_loot(id).withChance(1)
             }
         }))
@@ -73,7 +88,7 @@ LootJS.modifiers((event) => {
         .addLootTableModifier("lootr:chests/elytra")
         .randomChance(ELYTRA_RATE)
         .addWeightedLoot(banned_ids.map((id) => {
-            if (id !== MAXX_C) {
+            if (!exceptions.includes(id)) {
                 return banned_card_loot(id).withChance(1)
             }
         }))
@@ -83,4 +98,20 @@ LootJS.modifiers((event) => {
         .addLootTypeModifier(LootType.ENTITY)
         .randomChance(MAXX_C_RATE)
         .addLoot(banned_card_loot(MAXX_C));
+    
+    // Jars come from Supplementaries Urns
+    event
+        .addBlockLootModifier("supplementaries:urn")
+        .customCondition({
+            condition: "minecraft:block_state_property",
+            block: "supplementaries:urn",
+            properties: {
+                treasure: "true"
+            }
+        })
+        .randomChance(JAR_DROP_RATE)
+        .addWeightedLoot(JARS.map((id) => {
+            return banned_card_loot(id).withChance(1)
+        }))
+    
 })
