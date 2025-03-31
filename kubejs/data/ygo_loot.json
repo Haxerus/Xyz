@@ -36,6 +36,7 @@
       }
     ],
     "tables": [
+      "minecraft:gameplay/fishing",
       "minecraft:gameplay/fishing/fish",
       "minecraft:gameplay/fishing/junk",
       "aquaculture:box/box",
