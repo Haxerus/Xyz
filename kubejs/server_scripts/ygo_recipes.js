@@ -33,17 +33,25 @@ ServerEvents.recipes(event => {
     event.stonecutting('kubejs:dm_blank', 'kubejs:n_dust_block')
     event.stonecutting('4x kubejs:gx_blank', 'kubejs:r_dust_block')
 
-    event.shapeless('kubejs:r_dust', [ 
-        '4x kubejs:n_dust'
-    ])
+    event.shapeless('kubejs:r_dust', '4x kubejs:n_dust')
 
-    event.shapeless('kubejs:sr_dust', [ 
-        '4x kubejs:r_dust'
-    ])
+    event.shapeless('kubejs:sr_dust', '4x kubejs:r_dust')
 
-    event.shapeless('kubejs:ur_dust', [ 
-        '4x kubejs:sr_dust'
-    ])
+    event.shapeless('kubejs:ur_dust', '4x kubejs:sr_dust')
+
+    event.shapeless('4x kubejs:n_dust', 'kubejs:r_dust')
+
+    event.shapeless('4x kubejs:r_dust', 'kubejs:sr_dust')
+
+    event.shapeless('4x kubejs:sr_dust', 'kubejs:ur_dust')
+
+    event.shapeless('9x kubejs:n_dust', 'kubejs:n_dust_block')
+
+    event.shapeless('9x kubejs:r_dust', 'kubejs:r_dust_block')
+
+    event.shapeless('9x kubejs:sr_dust', 'kubejs:sr_dust_block')
+
+    event.shapeless('9x kubejs:ur_dust', 'kubejs:ur_dust_block')
 
     event.shaped('kubejs:n_dust_block', [
         'AAA', 
