@@ -3,9 +3,11 @@ LootJS.modifiers((event) => {
 
     // Special Banned Card Loot
     const MAXX_C = 23434538
-    const JARS = [33508719, 34124316, 78706415]
+    const JARS = [33508719, 34124316, 78706415, 67169062]
 
-    let exceptions = [23434538, 33508719, 34124316, 78706415]
+    let exceptions = []
+    exceptions = exceptions.concat(JARS)
+    exceptions.push(MAXX_C)
 
     const MAXX_C_RATE = 1 / 25000
     const ELYTRA_RATE = 1 / 100
