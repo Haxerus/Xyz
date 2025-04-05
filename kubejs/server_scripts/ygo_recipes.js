@@ -10,9 +10,9 @@ ServerEvents.recipes(event => {
     const dm = ["LOB", "MRD", "SRL", "PSV", "LON", "LOD", "PGD", "MFC", "DCR", "IOC", "AST", "SOD", "RDS", "FET"]
     const gx = ["TLM", "CRV", "EEN", "SOI", "EOJ", "POTD", "CDIP", "STON", "FOTB", "TAEV", "GLAS", "PTDN", "LODT"]
 
-    const fiveds_s = ["CSOC", "TDGS", "SOVR"]
-    const fiveds_g = ["TSHD", "ANPR", "STOR"]
-    const fiveds_w = ["HA01", "HA02", "BP01", "BP02", "BP03", "BPW2"]
+    const fiveds_s = ["CSOC", "TDGS", "SOVR", "DREV"] // TODO: Remove DREV from this later
+    const fiveds_g = ["TSHD", "ANPR", "STOR", "ABPF"]
+    const fiveds_w = ["HA01", "HA02", "BP01", "BP02", "BP03", "BPW2", "LC5D"]
 
     const zexal_x = ["GAOV", "REDU", "ABYR"]
     const zexal_y = ["CBLZ", "LTGY", "NUMH"]

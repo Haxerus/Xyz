@@ -427,6 +427,14 @@
       {
         "code": "RGBT",
         "weight": 1
+      },
+      {
+        "code": "DP08",
+        "weight": 1
+      },
+      {
+        "code": "LC5D",
+        "weight": 1
       }
     ],
     "tables": [
@@ -595,6 +603,10 @@
       {
         "code": "RGBT",
         "weight": 1
+      },
+      {
+        "code": "DP08",
+        "weight": 1
       }
     ],
     "tables": [
@@ -638,6 +650,10 @@
       {
         "code": "SOVR",
         "weight": 51
+      },
+      {
+        "code": "DP08",
+        "weight": 1
       },
       {
         "code": "5DS1",
