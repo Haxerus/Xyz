@@ -463,7 +463,7 @@
     ]
   },
   "Nether_mob_fire": {
-    "chance": 0.1,
+    "chance": 0.4,
     "packs": [
       {
         "code": "CRMS",
