@@ -12,5 +12,5 @@ ServerEvents.recipes(event => {
     event.recipes.create.filling('kubejs:astral_plate', [Fluid.of('kubejs:astral_ink', 1000), 'alloyed:steel_sheet'])
     event.recipes.create.compacting('kubejs:zexal_blank_x', ['kubejs:astral_plate', 'minecraft:chorus_fruit']).heated()
     event.recipes.create.compacting('kubejs:zexal_blank_y', ['kubejs:astral_plate', 'minecraft:dragon_breath']).heated()
-    event.recipes.create.compacting('kubejs:zexal_blank_z', ['kubejs:astral_plate', 'endergetic:booflo_hide']).heated()
+    event.recipes.create.compacting('kubejs:zexal_blank_z', ['kubejs:astral_plate', 'endergetic:bolloom_fruit']).heated()
 })

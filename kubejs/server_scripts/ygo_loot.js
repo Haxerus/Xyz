@@ -115,5 +115,4 @@ LootJS.modifiers((event) => {
         .addWeightedLoot(JARS.map((id) => {
             return banned_card_loot(id).withChance(1)
         }))
-    
 })
