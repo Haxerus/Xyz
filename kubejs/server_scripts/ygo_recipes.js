@@ -1,6 +1,36 @@
 ServerEvents.recipes(event => {
     console.log("Loaded custom YGO recipes")
 
+    event.recipes
+        .shapeless(Item.of("kubejs:n_dust"), [Ingredient.of("ydm:opened_set")])
+        .modifyResult((grid, result) => {
+            const item = grid.find(Ingredient.of("ydm:opened_set"));
+            let inventory = item.getItem().getShareTag(item).card_item_inventory.Items
+            let amount = 0
+            inventory.forEach((item) => {
+                let rarity = item.tag.rarity
+                if (global.Rarities.tier1.includes(rarity)) {
+                    amount += 1
+                } else if (global.Rarities.tier2.includes(rarity)) {
+                    amount += 2
+                } else if (global.Rarities.tier3.includes(rarity)) {
+                    amount += 4
+                } else if (global.Rarities.tier4.includes(rarity)) {
+                    amount += 8
+                } else if (global.Rarities.tier5.includes(rarity)) {
+                    amount += 16
+                }
+            })
+
+            amount = Math.min(amount, 64)
+
+            result.setCount(amount)
+
+            console.log(amount)
+
+            return result
+        })
+
     global.Rarities.tier1.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 1))
     global.Rarities.tier2.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 2))
     global.Rarities.tier3.forEach((r) => global.Helpers.dusting(event, r, 'kubejs:n_dust', 4))
