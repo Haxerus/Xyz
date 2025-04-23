@@ -1,13 +1,4 @@
 ServerEvents.recipes(event => {
-    let card_loot = (id) => {
-        return LootEntry.of("ydm:card", {
-            rarity: "Ultra Rare",
-            code: `${id}_0`,
-            id: parseInt(id),
-            image_index: 0
-        })
-    }
-
     let card_item = (id) => {
         return Item.of("ydm:card", {
             rarity: "Ultra Rare",
@@ -28,6 +19,15 @@ ServerEvents.recipes(event => {
 
 
 LootJS.modifiers(event => {
+    let card_loot = (id) => {
+        return LootEntry.of("ydm:card", {
+            rarity: "Ultra Rare",
+            code: `${id}_0`,
+            id: parseInt(id),
+            image_index: 0
+        })
+    }
+
     // Void Ogre Dragon
     event
         .addLootTableModifier('minecraft:entities/ender_dragon')
