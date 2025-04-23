@@ -1,13 +1,22 @@
-ServerEvents.recipes(event => {
-    let card_item = (id) => {
-        return Item.of("ydm:card", {
-            rarity: "Ultra Rare",
-            code: `${id}_0`,
-            id: parseInt(id),
-            image_index: 0
-        })
-    }
+let card_item = (id) => {
+    return Item.of("ydm:card", {
+        rarity: "Ultra Rare",
+        code: `${id}_0`,
+        id: parseInt(id),
+        image_index: 0
+    })
+}
 
+let card_loot = (id) => {
+    return LootEntry.of("ydm:card", {
+        rarity: "Ultra Rare",
+        code: `${id}_0`,
+        id: parseInt(id),
+        image_index: 0
+    })
+}
+
+ServerEvents.recipes(event => {
     // --- Promo Stuff ---
 
     // Joey's World Mega Pack
@@ -19,15 +28,6 @@ ServerEvents.recipes(event => {
 
 
 LootJS.modifiers(event => {
-    let card_loot = (id) => {
-        return LootEntry.of("ydm:card", {
-            rarity: "Ultra Rare",
-            code: `${id}_0`,
-            id: parseInt(id),
-            image_index: 0
-        })
-    }
-
     // Void Ogre Dragon
     event
         .addLootTableModifier('minecraft:entities/ender_dragon')
@@ -38,4 +38,11 @@ LootJS.modifiers(event => {
     event
         .addLootTableModifier('friendsandfoes:entities/wildfire')
         .addLoot(card_loot(29669359))
+})
+
+ItemEvents.rightClicked('aquaculture:message_in_a_bottle', event => {
+    if (Math.random() < 0.3) {
+        // 30% chance to obtain
+        event.player.give(card_item(97433739))
+    }
 })
