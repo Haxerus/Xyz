@@ -740,30 +740,6 @@
     "chance": 1,
     "packs": [
       {
-        "code": "ORCS",
-        "weight": 1
-      },
-      {
-        "code": "GAOV",
-        "weight": 1
-      },
-      {
-        "code": "REDU",
-        "weight": 1
-      },
-      {
-        "code": "ABYR",
-        "weight": 1
-      },
-      {
-        "code": "CBLZ",
-        "weight": 1
-      },
-      {
-        "code": "LTGY",
-        "weight": 1
-      },
-      {
         "code": "HA05",
         "weight": 1
       },
@@ -773,6 +749,18 @@
       },
       {
         "code": "HA07",
+        "weight": 1
+      },
+      {
+        "code": "GLD3",
+        "weight": 1
+      },
+      {
+        "code": "GLD5",
+        "weight": 1
+      },
+      {
+        "code": "PGLD",
         "weight": 1
       }
     ],
